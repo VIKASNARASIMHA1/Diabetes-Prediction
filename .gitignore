@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+.venv/
+.ipynb_checkpoints/
+.DS_Store
+# trained model is rebuilt by `python train.py` (pickles are tied to the scikit-learn version)
+models/*.joblib
+metrics.json
